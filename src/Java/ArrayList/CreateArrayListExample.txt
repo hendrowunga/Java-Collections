@@ -1,0 +1,5 @@
+Kode ini membuat sebuah `ArrayList` bernama `animals` untuk menyimpan elemen bertipe `String`.
+Elemen-elemen ditambahkan menggunakan `add()`, baik di akhir daftar maupun di indeks tertentu.
+Ketika elemen baru seperti `"Cat"` ditambahkan di indeks ke-2, elemen sebelumnya pada indeks tersebut (`"Elephant"`) dan
+elemen lainnya akan digeser ke indeks berikutnya untuk memberi ruang, sehingga urutan data tetap terjaga.
+Kode ini menampilkan bagaimana `ArrayList` memungkinkan pengelolaan data secara fleksibel dan dinamis tanpa kehilangan elemen yang sudah ada.

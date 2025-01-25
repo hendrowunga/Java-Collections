@@ -1,0 +1,6 @@
+Kode ini membuat dua ArrayList: satu untuk lima bilangan prima pertama (firstFivePrimeNumbers)
+dan satu untuk lima bilangan prima berikutnya (nextFivePrimeNumbers). Kumpulan bilangan prima pertama ditambahkan
+ke firstTenPrimeNumbers menggunakan konstruktor yang menerima koleksi sebagai argumen.
+Elemen dari kumpulan bilangan prima berikutnya kemudian ditambahkan ke firstTenPrimeNumbers menggunakan metode addAll().
+Hasil akhirnya adalah firstTenPrimeNumbers menggabungkan semua elemen dari kedua daftar, yang kemudian dicetak ke konsol.
+Ini menunjukkan cara mengelola dan menggabungkan koleksi data dalam Java secara efisien.

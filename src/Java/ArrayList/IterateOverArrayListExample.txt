@@ -1,0 +1,10 @@
+Pada kode ini, kami mendemonstrasikan berbagai metode untuk mengiterasi elemen dalam ArrayList yang berisi nama-nama acara TV.
+Pertama, kami menggunakan Java 8 forEach dengan lambda expression untuk melakukan iterasi dengan cara yang lebih deklaratif dan efisien.
+Dengan cara ini, kita bisa mengurangi kode boilerplate dan meningkatkan keterbacaan.
+Selanjutnya, menggunakan Iterator memungkinkan iterasi lebih fleksibel, dengan kemampuan untuk menghapus elemen secara langsung jika diperlukan.
+Kami juga menunjukkan forEachRemaining untuk memanfaatkan metode Java 8 yang memungkinkan iterasi elemen yang tersisa dengan lebih singkat.
+Pada contoh ListIterator, kami menunjukkan kemampuan untuk menavigasi elemen baik maju maupun mundur, yang memberi lebih banyak kontrol dibandingkan iterator biasa.
+Selain itu, iterasi menggunakan for-each loop menampilkan cara yang lebih bersih dan intuitif untuk mengakses elemen dalam koleksi,
+sementara for loop berbasis indeks menunjukkan cara klasik yang lebih manual dan eksplisit dalam mengakses elemen berdasarkan indeks.
+Setiap pendekatan ini memberikan manfaat tersendiri, bergantung pada konteks kebutuhan seperti pengelolaan urutan, performa, dan kompleksitas kode yang diinginkan
+dalam pengembangan perangkat lunak.

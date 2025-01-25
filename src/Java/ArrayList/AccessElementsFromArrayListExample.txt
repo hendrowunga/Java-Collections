@@ -1,0 +1,7 @@
+Kode ini menggunakan ArrayList untuk menyimpan daftar nama perusahaan terkemuka.
+Awalnya, metode isEmpty() digunakan untuk memeriksa apakah daftar kosong.
+Setelah itu, elemen-elemen seperti "Google", "Amazon", dan lainnya ditambahkan menggunakan metode add().
+Dengan size(), ukuran atau jumlah elemen dalam daftar diperoleh, lalu elemen tertentu diakses menggunakan get()
+untuk membaca data pada indeks tertentu, seperti elemen pertama, kedua, dan terakhir.
+Selanjutnya, metode set() digunakan untuk mengganti elemen di indeks tertentu, menggantikan "Microsoft" dengan "Oracle".
+Kode ini menunjukkan fleksibilitas ArrayList dalam memeriksa, menambah, membaca, dan memodifikasi elemen secara dinamis.

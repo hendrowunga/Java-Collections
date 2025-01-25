@@ -1,0 +1,7 @@
+Kode ini menunjukkan berbagai cara menghapus elemen dari sebuah ArrayList.
+Pertama, elemen pada indeks tertentu dihapus menggunakan remove(int index).
+Selanjutnya, elemen tertentu dihapus berdasarkan nilai dengan remove(Object o).
+Lalu, seluruh elemen yang ada dalam koleksi lain dihapus menggunakan removeAll(Collection<?> c).
+Untuk penghapusan berdasarkan kondisi tertentu, digunakan metode removeIf(Predicate<? super E> filter) di mana elemen
+yang memenuhi kriteria (dimulai dengan huruf "C") dihapus. Terakhir, metode clear() digunakan untuk mengosongkan seluruh elemen dari daftar.
+Program ini menampilkan daftar setelah setiap penghapusan untuk menunjukkan perubahan secara bertahap, memanfaatkan fleksibilitas ArrayList dalam pengelolaan data.
