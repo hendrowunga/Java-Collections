@@ -1,0 +1,8 @@
+Pada kode ini, ArrayList digunakan untuk menyimpan elemen-elemen bilangan bulat dalam daftar yang dinamis.
+Dengan memanfaatkan metode add(), elemen-elemen ditambahkan satu per satu ke dalam daftar.
+Sebelum melakukan pengurutan, daftar dicetak untuk menunjukkan urutan asli elemen. Selanjutnya, fungsi Collections.sort() dari
+Java digunakan untuk mengurutkan elemen dalam urutan menaik. Di balik layar, Collections.sort()
+menggunakan algoritma pengurutan seperti Timsort, yang dirancang untuk efisiensi tinggi dengan kompleksitas waktu O(n log n).
+Setelah daftar diurutkan, elemen-elemen dalam daftar dicetak ulang untuk menunjukkan perubahan urutan.
+Penggunaan metode ini menunjukkan fleksibilitas Java dalam mengelola data dinamis dengan kombinasi algoritma bawaan yang optimal dan
+sintaks yang sederhana namun kuat.
