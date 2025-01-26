@@ -1,0 +1,8 @@
+Pada kode ini, kita memanfaatkan metode bawaan dari ArrayList untuk mencari dan memverifikasi keberadaan elemen dalam daftar.
+Pertama, kita menambahkan beberapa elemen ke dalam ArrayList menggunakan metode add(). Kemudian, dengan metode contains(),
+kita memeriksa apakah elemen tertentu, seperti "Bob", ada di daftar, yang mengembalikan nilai boolean.
+Selanjutnya, metode indexOf() digunakan untuk mencari indeks pertama dari elemen seperti "Eve", dan
+jika elemen tidak ditemukan, seperti "Hendro", akan mengembalikan -1. Untuk elemen yang bisa muncul lebih dari sekali,
+metode lastIndexOf() mencari indeks terakhir elemen tersebut, seperti "Hank". Dalam kasus di mana elemen hanya muncul satu kali,
+ hasil indexOf() dan lastIndexOf() adalah sama. Kode ini mendemonstrasikan bagaimana kita dapat secara efisien memeriksa, mencari,
+ dan melacak elemen dalam struktur data dinamis seperti ArrayList.
