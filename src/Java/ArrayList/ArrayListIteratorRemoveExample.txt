@@ -1,0 +1,8 @@
+Pada program ini, kita menggunakan ArrayList untuk menyimpan daftar bilangan bulat dan menghapus semua bilangan ganjil menggunakan iterator.
+Pertama, elemen-elemen dimasukkan ke dalam ArrayList, lalu iterator digunakan untuk melakukan iterasi terhadap elemen-elemen dalam daftar.
+Iterator memastikan kita dapat memodifikasi ArrayList dengan aman selama iterasi, yang tidak dapat dilakukan dengan perulangan biasa seperti for-each.
+Saat iterasi berlangsung, setiap elemen diperiksa apakah merupakan bilangan ganjil dengan menggunakan operator modulus (num % 2 != 0).
+Jika bilangan tersebut ganjil, metode remove() dari iterator akan dipanggil untuk menghapus elemen tersebut secara langsung dari ArrayList.
+Setelah iterasi selesai, hanya bilangan genap yang tersisa dalam daftar, dan hasil akhirnya dicetak, yaitu [2, 4].
+Logika ini kompleks karena melibatkan pemahaman tentang pengelolaan koleksi secara aman, penggunaan iterator,
+serta manipulasi data berdasarkan kondisi tertentu selama iterasi.
