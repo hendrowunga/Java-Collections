@@ -1,0 +1,7 @@
+Program ini mendemonstrasikan tiga cara berbeda untuk mengurutkan elemen dalam sebuah ArrayList menggunakan metode sort().
+Pertama, kita menggunakan objek Comparator anonim untuk mengimplementasikan logika pembandingan elemen dengan metode compareTo(),
+di mana elemen dibandingkan secara alfabetis. Kedua, kita menyederhanakan kode dengan menggunakan lambda expression,
+yang menghasilkan sintaks yang lebih ringkas dan efisien namun melakukan hal yang sama. Terakhir, kita memanfaatkan Comparator.naturalOrder(),
+metode bawaan Java untuk mengurutkan elemen sesuai urutan alami (alfabetis untuk String).
+Setelah elemen diurutkan dengan salah satu dari metode ini, kita mencetak daftar nama yang telah diurutkan.
+Program ini menunjukkan fleksibilitas Java dalam mengurutkan elemen ArrayList menggunakan pendekatan manual dan bawaan.
