@@ -1,0 +1,9 @@
+Kode ini menunjukkan bagaimana ArrayList, yang tidak secara bawaan aman untuk akses multi-threading,
+berperilaku ketika digunakan dalam lingkungan multi-thread tanpa sinkronisasi.
+Program membuat ArrayList yang diakses oleh 100 tugas berbeda yang berjalan secara paralel dalam thread pool dengan 10 thread.
+Setiap tugas menjalankan metode incrementArrayList, yang mengiterasi seluruh elemen ArrayList dan menambah nilai masing-masing elemen sebesar 1.
+Karena ArrayList tidak sinkron, operasi baca (get()) dan tulis (set()) tidak terjamin keamanannya, sehingga menyebabkan race condition,
+di mana beberapa thread dapat mengakses dan mengubah elemen yang sama secara bersamaan, menghasilkan perilaku yang tidak terduga.
+Contoh ini mirip dengan simulasi lingkungan di ONE, di mana resource (data) yang tidak terkunci dapat menyebabkan hasil yang kacau
+karena akses simultan oleh banyak entitas (node atau event). Dalam simulasi, situasi ini dapat dianalogikan sebagai konflik akses ke
+buffer atau status node yang memerlukan sinkronisasi untuk menjaga konsistensi data.
