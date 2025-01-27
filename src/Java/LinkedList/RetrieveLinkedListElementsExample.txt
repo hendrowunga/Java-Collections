@@ -1,0 +1,9 @@
+Kode ini mendemonstrasikan penggunaan LinkedList untuk menyimpan dan mengambil data harga saham harian sebuah perusahaan.
+Data ini diatur dalam urutan temporal di mana setiap elemen merepresentasikan harga saham pada satu hari tertentu.
+Metode getFirst() digunakan untuk mendapatkan harga awal saham (hari pertama), dan getLast() untuk mengambil harga terkini (hari terakhir),
+mencerminkan informasi tentang tren jangka waktu tertentu. Selain itu, metode get(index) memungkinkan pengambilan data spesifik
+pada hari tertentu (contoh, hari ketiga). Dalam konteks simulasi seperti ONE, pendekatan ini bisa diterapkan untuk mengelola data
+yang bersifat temporal, misalnya, log waktu kontak antar-node di jaringan. Elemen pertama dan terakhir bisa merepresentasikan
+waktu kontak pertama dan terakhir dalam periode tertentu, sedangkan indeks spesifik dapat digunakan untuk mengakses log kontak
+di waktu tertentu, mendukung analisis granular terhadap interaksi dalam jaringan dinamis. Dengan struktur LinkedList,
+akses ke elemen pertama dan terakhir lebih cepat, cocok untuk simulasi berbasis urutan temporal.
