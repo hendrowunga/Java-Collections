@@ -1,0 +1,9 @@
+Pada awalnya, sebuah LinkedList kosong dibuat untuk menyimpan daftar nama teman.
+Elemen-elemen ditambahkan satu per satu menggunakan metode add() di akhir daftar. Metode add(index, element)
+memungkinkan elemen seperti "Lisa" disisipkan pada indeks tertentu, sementara elemen lain setelah indeks tersebut secara
+otomatis bergeser. Dengan addFirst() dan addLast(), elemen dapat dengan mudah ditempatkan di awal atau akhir daftar, masing-masing,
+tanpa perlu memanipulasi indeks. Untuk menunjukkan interoperabilitas koleksi Java, kode ini juga membuat ArrayList terpisah dan
+menggunakan metode addAll() untuk menggabungkan elemen dari ArrayList tersebut ke dalam LinkedList.
+Logika ini menyerupai bagaimana node dan koneksi ditambahkan atau dimodifikasi dalam simulasi ONE,
+di mana LinkedList dapat diibaratkan sebagai daftar node yang mewakili perangkat, dan elemen-elemen dalam daftar
+merepresentasikan interaksi atau koneksi antar perangkat dalam suatu simulasi jaringan dinamis.
