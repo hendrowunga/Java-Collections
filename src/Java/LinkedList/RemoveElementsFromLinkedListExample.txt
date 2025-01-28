@@ -1,0 +1,13 @@
+Kode ini menunjukkan berbagai cara untuk menghapus elemen dari LinkedList menggunakan
+beberapa metode bawaan Java. Pada awalnya, daftar bahasa pemrograman dibuat dan diisi dengan elemen.
+Kemudian, metode removeFirst() digunakan untuk menghapus elemen pertama, sedangkan removeLast()
+digunakan untuk elemen terakhir, keduanya membuang elemen dari daftar secara terarah,
+sangat mirip dengan mekanisme deque (double-ended queue) yang diterapkan di ONE simulation,
+di mana elemen dapat diakses di kedua ujungnya. Metode remove(String element) menghapus elemen
+tertentu berdasarkan nilai pertama yang ditemukan, berguna untuk mengatur data dinamis dalam
+jaringan komunikasi. Metode removeIf(Predicate) memungkinkan penghapusan berbasis kondisi seperti
+elemen yang diawali dengan huruf "C", sangat penting untuk mensimulasikan skenario filtrasi data
+spesifik dalam ONE saat analisis log atau event filtering diperlukan. Akhirnya, clear()
+mengosongkan seluruh daftar, memastikan LinkedList dalam kondisi bersih, yang relevan untuk
+mengatur ulang node atau buffer pada simulasi jaringan setelah analisis selesai.
+Setiap langkah memberikan kontrol granular atas manipulasi data, mirip dengan bagaimana buffer atau log disesuaikan dalam simulasi berbasis DTN.
