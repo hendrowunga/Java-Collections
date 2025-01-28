@@ -1,0 +1,9 @@
+Program ini menggunakan kelas LinkedList untuk menyimpan nama-nama karyawan, lalu menunjukkan cara mencari elemen dengan
+berbagai metode pencarian yang disediakan oleh koleksi tersebut. Elemen-elemen ditambahkan
+satu per satu menggunakan add(), termasuk elemen duplikat seperti "Rajeev". Kemudian, program mengevaluasi keberadaan elemen tertentu dengan contains()
+yang mengembalikan nilai boolean (true jika elemen ditemukan, false jika tidak). Metode indexOf() digunakan untuk mencari indeks pertama kemunculan elemen tertentu,
+mengembalikan -1 jika elemen tidak ada, seperti yang ditunjukkan pada pencarian "Steve" dan "Mark".
+Selain itu, lastIndexOf() digunakan untuk menemukan posisi terakhir elemen dalam daftar, sangat berguna saat elemen yang sama muncul lebih dari sekali.
+Operasi ini memberikan fleksibilitas tinggi dalam manipulasi dan pencarian data dalam struktur LinkedList.
+Dalam konteks simulasi seperti ONE, konsep ini serupa dengan traversal dan pencarian koneksi dalam jaringan komunikasi, di mana setiap elemen mungkin merepresentasikan
+node atau event yang perlu dilacak atau dimanipulasi secara efisien.
