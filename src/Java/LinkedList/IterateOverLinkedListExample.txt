@@ -1,0 +1,8 @@
+Kode ini mendemonstrasikan berbagai cara untuk mengiterasi elemen dalam LinkedList dengan pendekatan yang beragam,
+mulai dari menggunakan forEach dengan lambda expression (Java 8), iterasi manual menggunakan iterator(),
+hingga metode khusus seperti forEachRemaining(). Selain itu, iterasi mundur diperkenalkan menggunakan descendingIterator()
+untuk menavigasi elemen dari akhir ke awal, sementara listIterator() memungkinkan iterasi dua arah.
+Terakhir, pendekatan konvensional seperti for-each loop juga digunakan sebagai cara sederhana dan intuitif.
+Dalam konteks ONE simulasi, iterasi semacam ini relevan untuk memproses daftar node atau log data, seperti iterasi atas daftar kontak node dalam simulasi jaringan,
+di mana kita mungkin perlu memproses elemen dengan cara yang berbeda tergantung pada kebutuhan—misalnya, mengakses elemen secara maju, mundur,
+atau menerapkan operasi pada elemen tertentu.
